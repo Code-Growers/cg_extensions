@@ -21,7 +21,7 @@ packages:
       path: "."
       ref: master
       resolved-ref: "9b0bae538e6be8c78c8cf7da07ad63276e524e49"
-      url: "https://github.com/NomiAdam/cg_analysis.git"
+      url: "https://github.com/Code-Growers/cg_analysis.git"
     source: git
     version: "1.0.0"
   characters:
@@ -93,7 +93,7 @@ packages:
       path: "."
       ref: main
       resolved-ref: "5588d1a9922504d394b2974355e2d6933ab21642"
-      url: "https://github.com/NomiAdam/febu.git"
+      url: "https://github.com/Code-Growers/febu.git"
     source: git
     version: "0.0.1"
   flutter:

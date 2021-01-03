@@ -3,7 +3,7 @@ description: Fancy, yet basically useless extensions for dart language used inte
 publish_to: 'none'
 version: 0.0.1
 author: Adam Kvasnicka
-homepage: https://github.com/NomiAdam/cg_extensions
+homepage: https://github.com/Code-Growers/cg_extensions
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -18,7 +18,7 @@ dependencies:
   flutter_screenutil: 4.0.2+2
   febu:
     git:
-      url: https://github.com/NomiAdam/febu.git
+      url: https://github.com/Code-Growers/febu.git
       ref: main
 
 dev_dependencies:
@@ -26,7 +26,7 @@ dev_dependencies:
     sdk: flutter
   cg_analysis:
     git:
-      url: https://github.com/NomiAdam/cg_analysis.git
+      url: https://github.com/Code-Growers/cg_analysis.git
       ref: master
 
 flutter:
