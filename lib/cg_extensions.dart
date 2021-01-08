@@ -11,3 +11,4 @@ export 'src/responsivity/screen_utils.dart';
 export 'src/responsivity/spacing_utils.dart';
 export 'src/string_extensions.dart';
 export 'src/text_style_extension.dart';
+export 'src/providers/flutter_toast_provider.dart';
