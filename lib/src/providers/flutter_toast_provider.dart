@@ -13,13 +13,8 @@ class FlutterToastProvider extends StatefulWidget {
 
 class _FlutterToastProviderState extends State<FlutterToastProvider> {
   @override
-  void initState() {
-    super.initState();
-    FToast().init(context);
-  }
-
-  @override
   Widget build(BuildContext context) {
+    FToast().init(context);
     return widget.child;
   }
 }
