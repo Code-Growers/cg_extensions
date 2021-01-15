@@ -1,7 +1,6 @@
 library cg_extensions;
 
 export 'package:dart_extensions/dart_extensions.dart';
-export 'package:dartx/dartx.dart';
 export 'package:febu/febu.dart';
 
 export 'src/gap_extension.dart';

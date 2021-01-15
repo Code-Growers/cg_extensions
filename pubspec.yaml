@@ -14,7 +14,6 @@ dependencies:
   gap: 1.2.0
   flutter_i18n: 0.20.1
   dart_extensions: 1.0.2
-  dartx: 0.5.0
   fluttertoast: 7.1.6
   flutter_screenutil: 4.0.2+2
   febu:
