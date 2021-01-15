@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'responsivity/screen_utils.dart';
 
-extension MapExtension on Map<String, Widget Function(BuildContext context)> {
+extension CgMapExtension on Map<String, Widget Function(BuildContext context)> {
   Map<String, Widget Function(BuildContext context)> addRoute<T>(
           T route, Widget screen) =>
       this
