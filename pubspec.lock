@@ -85,10 +85,10 @@ packages:
     description:
       path: "."
       ref: main
-      resolved-ref: "95f5946d717e6aac37453e2afb0834757fe0b0c0"
+      resolved-ref: c76314e8b1c0b1228b2621b1f5d3b89535851bbf
       url: "https://github.com/Code-Growers/febu.git"
     source: git
-    version: "0.0.2"
+    version: "0.0.3"
   flutter:
     dependency: "direct main"
     description: flutter
