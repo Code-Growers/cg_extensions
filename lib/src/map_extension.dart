@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'responsivity/screen_utils.dart';
 
 extension CgMapExtension on Map<String, Widget Function(BuildContext context)> {
-  Map<String, Widget Function(BuildContext context)> addRoute<T>(
-          T route, Widget screen) =>
+  Map<String, Widget Function(BuildContext context)> addRoute(
+          Object route, Widget screen) =>
       this
         ..update(describeEnum(route),
             (_) => (BuildContext context) => withScreenUtil(screen),

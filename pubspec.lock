@@ -84,8 +84,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: main
-      resolved-ref: c76314e8b1c0b1228b2621b1f5d3b89535851bbf
+      ref: null_safety
+      resolved-ref: "6e433fc148743151b389782d8b1fc96dd3c87b25"
       url: "https://github.com/Code-Growers/febu.git"
     source: git
     version: "0.0.3"
