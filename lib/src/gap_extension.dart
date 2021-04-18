@@ -1,7 +1,7 @@
 import 'package:gap/gap.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../cg_extensions.dart';
+import 'responsivity/spacing_utils.dart';
 
 extension RGap on Gap {
   static Gap xxsH() => Gap(ScreenUtil().setHeight(SpacingUtil().xxs));

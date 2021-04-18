@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
 
-extension StringExt on String {
+extension CGStringExtension on String {
   String get removeHtmlTags {
     RegExp exp = RegExp('<[^>]*>', multiLine: true, caseSensitive: true);
     return replaceAll(exp, '');
