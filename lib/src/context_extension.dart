@@ -9,4 +9,6 @@ extension CGBlocContextExtension on BuildContext {
     (blocProvider as Bloc<E, dynamic>).add(event);
     return blocProvider;
   }
+
+  ThemeData get theme => Theme.of(this);
 }
