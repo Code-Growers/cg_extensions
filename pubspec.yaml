@@ -13,11 +13,11 @@ dependencies:
     sdk: flutter
   gap: 2.0.0
   flutter_i18n: 0.22.3
-  dart_extensions: 2.0.1
+  dart_extensions: 2.0.4
   flutter_bloc: 7.0.0
   dartx: 0.7.1
-  fluttertoast: 8.0.6
-  flutter_screenutil: 5.0.0
+  fluttertoast: 8.0.7
+  flutter_screenutil: 5.0.0+2
   febu:
     git:
       url: https://github.com/Code-Growers/febu.git
