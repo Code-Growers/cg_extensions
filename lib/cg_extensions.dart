@@ -11,12 +11,8 @@ export 'package:dart_extensions/src/flutter/gesture_detector.dart';
 export 'package:dartx/dartx.dart';
 export 'package:febu/febu.dart';
 
-export 'src/gap_extension.dart';
-export 'src/map_extension.dart';
 export 'src/string_extension.dart';
 export 'src/context_extension.dart';
 export 'src/num_list_extension.dart';
-export 'src/text_style_extension.dart';
-export 'src/responsivity/screen_utils.dart';
 export 'src/responsivity/spacing_utils.dart';
 export 'src/providers/flutter_toast_provider.dart';
