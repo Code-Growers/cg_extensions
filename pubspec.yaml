@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   gap: 2.0.0
-  flutter_i18n: 0.31.1
+  flutter_i18n: 0.22.3
   dart_extensions: 2.0.4
   dartx: 0.7.1
   fluttertoast: 8.0.7
