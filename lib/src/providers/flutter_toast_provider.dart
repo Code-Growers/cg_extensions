@@ -1,14 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:febu/febu.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-final RouteObserver<PageRoute<dynamic>> flutterToastRouteObserver =
-    RouteObserver<PageRoute<dynamic>>();
+final RouteObserver<Route<Object?>> flutterToastRouteObserver =
+    RouteObserver<Route<Object?>>();
 
 class FlutterToastProvider extends StatefulWidget {
   final Widget child;
 
-  FlutterToastProvider({Key key, this.child}) : super(key: key);
+  FlutterToastProvider({required this.child, Key? key}) : super(key: key);
 
   @override
   _FlutterToastProviderState createState() => _FlutterToastProviderState();
@@ -29,7 +30,9 @@ class _FlutterToastProviderState extends State<FlutterToastProvider>
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    flutterToastRouteObserver.subscribe(this, ModalRoute.of(context));
+    ModalRoute.of(context)?.let((Route<Object?> it) {
+      flutterToastRouteObserver.subscribe(this, it);
+    });
   }
 
   @override

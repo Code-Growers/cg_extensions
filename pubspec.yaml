@@ -1,26 +1,25 @@
 name: cg_extensions
 description: Fancy, yet basically useless extensions for dart language used internally at Code Growers s.r.o.
-publish_to: 'none'
-version: 0.0.3
-author: Adam Kvasnicka
+publish_to: "none"
+version: 0.0.7
 homepage: https://github.com/Code-Growers/cg_extensions
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.18.1 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   gap: 2.0.0
-  flutter_i18n: 0.22.3
-  dart_extensions: 2.0.1
-  dartx: 0.7.1
-  fluttertoast: 8.0.3
-  flutter_screenutil: 5.0.0
+  flutter_i18n: 0.32.4
+  dart_extensions: 2.2.0
+  dartx: 1.1.0
+  fluttertoast: 8.0.9
+  flutter_screenutil: 5.5.4
   febu:
     git:
       url: https://github.com/Code-Growers/febu.git
-      ref: main
+      ref: null_safety
 
 dev_dependencies:
   flutter_test:

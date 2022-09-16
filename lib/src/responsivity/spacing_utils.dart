@@ -1,28 +1,23 @@
 import 'package:febu/febu.dart';
 
 class SpacingUtil {
-  static SpacingUtil _instance;
   static const double defaultSpacingStep = 4.0;
+
+  static SpacingUtil _instance = SpacingUtil._();
 
   double spacingStep = defaultSpacingStep;
 
-  static double _xssSpacing;
-  static double _xsSpacing;
-  static double _smSpacing;
-  static double _mdSpacing;
-  static double _lgSpacing;
-  static double _xlSpacing;
-  static double _xxlSpacing;
+  static double _xssSpacing = 0;
+  static double _xsSpacing = 0;
+  static double _smSpacing = 0;
+  static double _mdSpacing = 0;
+  static double _lgSpacing = 0;
+  static double _xlSpacing = 0;
+  static double _xxlSpacing = 0;
 
   SpacingUtil._();
 
-  factory SpacingUtil() {
-    assert(
-      _instance != null,
-      '\nEnsure to initialize SpacingUtil before accessing it.\nPlease execute the init method : SpacingUtil.init()',
-    );
-    return _instance;
-  }
+  factory SpacingUtil() => _instance;
 
   static void init(
     double spacingStep, {
@@ -34,7 +29,6 @@ class SpacingUtil {
     num xl = 6,
     num xxl = 7,
   }) {
-    _instance ??= SpacingUtil._();
     _instance..spacingStep = spacingStep;
     _xssSpacing = spacingStep.mul(xxs);
     _xsSpacing = spacingStep.mul(xs);
