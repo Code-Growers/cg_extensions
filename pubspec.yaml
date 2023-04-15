@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  gap: 2.0.0
+  gap: ^3.0.0
   flutter_i18n: 0.32.4
   dart_extensions: 2.2.0
   dartx: 1.1.0
   fluttertoast: 8.2.1
-  flutter_screenutil: 5.5.4
+  flutter_screenutil: ^5.7.0
   febu:
     git:
       url: https://github.com/Code-Growers/febu.git
